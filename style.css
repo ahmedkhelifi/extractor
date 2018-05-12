@@ -1,0 +1,84 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+	font-family: 'Lato', sans-serif;
+	transition: 6000ms ease;
+}
+.jumbotron h1 {
+	color: #353535;
+}
+footer {
+  margin-bottom: 0 !important;
+  margin-top: 80px;
+}
+footer p {
+  margin: 0;
+  padding: 0;
+}
+span.icon {
+	margin: 0 5px;
+	color: #D64541;
+}
+h2 {
+  color: #BDC3C7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.mrng-60-top {
+	margin-top: 60px;
+}
+
+html,
+body,
+#wrapper {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#wrapper td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.result {
+        width: 100%;
+    }
+
+    input {
+        width: 300px;
+    }
+
+    hr {
+        margin-top: 6px;
+        margin-bottom: 6px;
+        border: 0;
+        width: 400px;
+        border-top: 1px solid rgba(0, 0, 0, 0.14);
+        margin-left: 4px;
+    }
+
+    #loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        color: white;
+        opacity: 1;
+        transition: 0.5s;
+        visibility: visible;
+    }
+
+    #loading.hidden {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    #content {
+        visibility: hidden;
+    }   
+    

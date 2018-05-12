@@ -1,0 +1,23 @@
+{
+  "name": "EviEx_Apple",
+  "title": "EviEx_Apple",
+  "version": "1.0.0",
+  "description": "Evidence Extractor for Apple devices",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "EviEx_Apple",
+    "beta"
+  ],
+  "author": "Ahmed Khelifi",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.8.2",
+    "electron-packager": "^11.1.0"
+  },
+  "dependencies": {
+    "electron-menu": "^1.0.0"
+  }
+}

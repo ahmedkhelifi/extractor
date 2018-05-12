@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extractor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<div id="loading">
+    <table id="wrapper">
+        <tr>
+            <td>
+                <img src="DKG.jpg" height="200" id="dkg">
+                <h1 id="EviEx">Apple  _ EviEx</h1>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="container-fluid" id="content">
+    <div class="bubbles" style="position: absolute;"></div>
+<a class="bubble-toggle" href="#">Bubbles On</a>
+    <div class="row">
+        <div class="col-sm" align="left" style="padding-top: 26px">
+            <div style="float: left; padding-right: 25px;">Studientyp:</div>
+            <input type="text" id="studientyp">
+            <br><hr>
+            <div style="float: left; padding-right: 60px;">Basis:</div>
+            <input type="text" id="basis">
+            <br><hr>
+            <div style="float: left; padding-right: 69px;">Zeit:</div>
+            <input type="text" id="zeit">
+            <br><hr>
+            <div style="float: left; padding-right: 26px;">Zuordnung:</div>
+            <input type="text" id="thema">
+            <br><hr>
+            <div style="float: left; padding-right: 52px;">Anzahl:</div>
+            <input type="text" id="anzahl">
+            <br><hr>
+            <div style="float: left; padding-right: 32px;">Histologie:</div>
+            <input type="text" id="histologie">
+            <br><hr>
+            <div style="float: left; padding-right: 12px;">Patienteninfo:</div>
+            <input type="text" id="patienteninfo">
+            <br><hr>
+            <div style="float: left; padding-right: 46px;">Stadium:</div>
+            <input type="text" id="stadium">
+            <br><hr>
+            <div style="float: left; padding-right: 24px;">Assessment:</div>
+            <input type="text" id="assesment">
+            <br><hr>
+            <div style="float: left; padding-right: 37px;">Follow up:</div>
+            <input type="text" id="followup">
+            <br><hr>
+            <div style="float: left; padding-right: 20px;">Studienfrage:</div>
+            <input type="text" id="studienfrage">
+            <br><hr>
+            <div>Intervention A:</div>
+            <div style="float: left; padding-right: 25px;">frei 1</div>
+            <input type="text" id="interventionA1" style="width: 342px;">
+            <br>
+            <div style="float: left; padding-right: 25px;">frei 2</div>
+            <input type="text" id="interventionA2" style="width: 342px;">
+            <br>
+            <div style="float: left; padding-right: 25px;">frei 3</div>
+            <input type="text" id="interventionA3" style="width: 342px;">
+            <br><hr>
+            <div>Intervention B:</div>
+            <div style="float: left; padding-right: 25px;">frei 1</div>
+            <input type="text" id="interventionB1" style="width: 342px;">
+            <br>
+            <div style="float: left; padding-right: 25px;">frei 2</div>
+            <input type="text" id="interventionB2" style="width: 342px;">
+            <br>
+            <div style="float: left; padding-right: 25px;">frei 3</div>
+            <input type="text" id="interventionB3" style="width: 342px;">
+            <br><hr>
+            
+        </div>
+        <div class="col-sm" align="left" style="padding-top: 20px;">
+            <div>Intervention C:</div>
+            <div style="float: left; padding-right: 25px;">frei 1</div>
+            <input type="text" id="interventionC1" style="width: 342px;">
+            <br>
+            <div style="float: left; padding-right: 25px;">frei 2</div>
+            <input type="text" id="interventionC2" style="width: 342px;">
+            <br>
+            <div style="float: left; padding-right: 25px;">frei 3</div>
+            <input type="text" id="interventionC3" style="width: 342px;">
+            <br><hr>
+            <div>Intervention D:</div>
+            <div style="float: left; padding-right: 25px;">frei 1</div>
+            <input type="text" id="interventionD1" style="width: 342px;">
+            <br>
+            <div style="float: left; padding-right: 25px;">frei 2</div>
+            <input type="text" id="interventionD2" style="width: 342px;">
+            <br>
+            <div style="float: left; padding-right: 25px;">frei 3</div>
+            <input type="text" id="interventionD3" style="width: 342px;">
+            <br><hr>
+            <div>Outcome 1:</div>
+            <div style="float: left; padding-right: 25px;">frei 1</div>
+            <input type="text" id="outcome11" style="width: 342px;">
+            <br>
+            <div style="float: left; padding-right: 25px;">frei 2</div>
+            <input type="text" id="outcome12" style="width: 342px;">
+            <br><hr>
+            <div>Outcome 2:</div>
+            <div style="float: left; padding-right: 25px;">frei 1</div>
+            <input type="text" id="outcome21" style="width: 342px;">
+            <br>
+            <div style="float: left; padding-right: 25px;">frei 2</div>
+            <input type="text" id="outcome22" style="width: 342px;">
+            <br><hr>
+            <div>Outcome 3:</div>
+            <div style="float: left; padding-right: 25px;">frei 1</div>
+            <input type="text" id="outcome31" style="width: 342px;">
+            <br>
+            <div style="float: left; padding-right: 25px;">frei 2</div>
+            <input type="text" id="outcome32" style="width: 342px;">
+            <br><hr>
+            <div>Outcome 4:</div>
+            <div style="float: left; padding-right: 25px;">frei 1</div>
+            <input type="text" id="outcome41" style="width: 342px;">
+            <br>
+            <div style="float: left; padding-right: 25px;">frei 2</div>
+            <input type="text" id="outcome42" style="width: 342px;">
+            <br><hr>
+            <div style="float: left; padding-right: 27px;">Bemerkung:</div>
+            <input type="text" id="bemerkung">
+            <br><hr>
+            <div style="float: left; padding-right: 39px;">Dialog-ID:</div>
+            <input type="text" id="dialogID">
+            <br>
+            <br>
+            <button onclick="getResult()">Extract</button>
+            <button onclick="resetAllValues()">Clear</button>
+            <div type="text" id="result" class="result"></div>
+        </div>
+    </div>
+</div>
+
+<script src="calculate.js"></script>
+<script src="bubbles.js"></script>
+<link rel="stylesheet" href="bubbles.css">
